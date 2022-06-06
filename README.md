@@ -10,8 +10,6 @@ This repository contains the code to reproduce the results presented in the foll
 4. Execute the `src/scripts/compute_features.py` script to compute the shape features on each nodule. The results will be stored in `features_files@config.yaml`
 5. Execute the `src/scripts/correlation_analysis.py` to assess the correlations among the imaging features and the manually-assigned radiological scores. The results will be stored in `correlation_results_files@config.yaml`
 
-## Utilities
-
 ## Dependencies
 - [Matplotlib 3.3.2](https://matplotlib.org/)
 - [Nibabel 3.2.1](https://nipy.org/nibabel/gettingstarted.html)
