@@ -1,0 +1,51 @@
+#List of features to compute. Possible values a<re the keys in
+#utilities.features_lut
+features_to_compute: ['Asphericity', 'AreaDensity', 'Compactness1', 
+'Compactness2', 'Elongation', 'Flatness', 'SphericalDisproportion', 'Sphericity', 
+'VolumeDensity']
+
+#List of the attributes to be included in the correlation analysis
+#selected_attributes: ['lobulation', 'margin', 'sphericity', 'spiculation', 'malignancy']
+selected_attributes: ['lobulation', 'sphericity', 'spiculation']
+
+#Store the scans metadata here
+scans_metadata_file: '../data/scans_metadata.csv'
+
+#Store the nodules metadata here
+nodules_metadata_file: '../data/nodules_metadata.csv'
+
+#Store the average attributes here
+attributes_file: '../data/attributes.csv'
+
+#Store the features here
+features_file: '../data/features.csv'
+
+#Store the results of the correlation analysis here
+correlation_results_file: '../data/correlation_results.csv'
+
+#Limit the analysis to those nodules for which there are at least min_annotations
+min_annotations_per_nodule: 3
+
+#Consensus level for ROI indentification. A voxel is considered in the ROI if: 
+#num_positive_annotations/num_annotations >= consensus_level 
+consensus_level: 0.5
+
+#Cache the ROI in nii format here
+roi_cache: '../cache/mask.nii'
+
+#Side length (in mm) of the tile images. Defines the scale factor.
+side_length_tiles: 50.0
+
+#HU window limits for signal resampling (tile images)
+window_limits_tiles: [-1350.0, 150]
+
+#Store the tiles here
+tiles_folder: 'tiles'
+
+#Store the scatter plots here
+scatter_plots_folder: 'scatter-plots'
+
+#Store .tex files here
+latex_folder: 'LaTeX'
+
+verbose: True
