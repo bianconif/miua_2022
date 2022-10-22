@@ -1,6 +1,6 @@
 ## Description
 This repository contains the code to reproduce the results presented in the following paper:
-- [Bianconi, F.](www.bianconif.net); Fravolini, M.L., [Pascoletti, G.](https://www.linkedin.com/in/giulia-pascoletti-273b2618a/); [Palumbo, I.](https://www.linkedin.com/in/isabella-palumbo-aa1a99114/), Scialpi, M.; [Aristei, C.](https://www.linkedin.com/in/cynthia-aristei-4202022a/) and [Palumbo, B.](https://www.linkedin.com/in/barbara-palumbo-83a360237/) Correlation between IBSI morphological features and manually-annotated shape attributes on lung lesions at CT, accepted for Medical Image Understading and Analysis ([MIUA 2022](https://www.miua2022.com/d)), Cambridge, United Kingdom, 27-29 July 2022
+- [Bianconi, F.](www.bianconif.net); Fravolini, M.L., [Pascoletti, G.](https://www.linkedin.com/in/giulia-pascoletti-273b2618a/); [Palumbo, I.](https://www.linkedin.com/in/isabella-palumbo-aa1a99114/), Scialpi, M.; [Aristei, C.](https://www.linkedin.com/in/cynthia-aristei-4202022a/) and [Palumbo, B.](https://www.linkedin.com/in/barbara-palumbo-83a360237/) Correlation Between IBSI Morphological Features and Manually-Annotated Shape Attributes on Lung Lesions at CT. In: Yang, G., Aviles-Rivero, A., Roberts, M., Schönlieb, CB. (eds) Medical Image Understanding and Analysis. MIUA 2022. Lecture Notes in Computer Science, vol 13413. Springer, Cham. Proceedings of [MIUA 2022](https://www.miua2022.com/d)), Cambridge, United Kingdom, 27-29 July 2022.
 
 ## Usage
 1. Select the features to compute and adjust the settings in the `config.yaml` file if required.
